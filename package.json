@@ -2,10 +2,11 @@
   "name": "education-tia-gonty-nail-hayden",
   "version": "1.0.0",
   "private": true,
-  "description": "Tablette éducative pour enfants (sons et noms en français)",
+  "description": "Tablette \u00e9ducative pour enfants (sons et noms en fran\u00e7ais)",
   "dependencies": {
     "@capacitor/android": "^6.2.0",
     "@capacitor/cli": "^6.2.0",
-    "@capacitor/core": "^6.2.0"
+    "@capacitor/core": "^6.2.0",
+    "@capacitor-community/text-to-speech": "^5.0.0"
   }
 }
