@@ -1,0 +1,6 @@
+{
+  "appId": "com.tiagonty.education",
+  "appName": "Education Tia Gonty Nail Hayden",
+  "webDir": "www",
+  "android": { "allowMixedContent": false }
+}
