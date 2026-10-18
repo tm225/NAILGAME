@@ -28,6 +28,11 @@ jobs:
           npx cap add android
           npx cap sync android
 
+      - name: Autoriser la synthèse vocale
+        run: |
+          sed -i 's#<application#<queries><intent><action android:name="android.intent.action.TTS_SERVICE"/></intent></queries>\n    <application#' android/app/src/main/AndroidManifest.xml
+          grep -n "TTS_SERVICE" android/app/src/main/AndroidManifest.xml
+
       - name: Construire l'APK
         working-directory: android
         run: |
